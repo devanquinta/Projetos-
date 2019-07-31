@@ -1,0 +1,182 @@
+*{
+margin:0;
+padding:0;
+}
+
+.cabeçalho
+
+{
+    background-color:#F5F5F5;
+    width:1800px;
+    height:100px;
+    margin:0px;
+    position:absolute;
+}
+
+/*llog no cabeçalho*/
+.logo
+
+{
+background-image:url("img/logo1.png");
+width:362px;
+height:60px;
+margin-top:80;
+margin-left:200;
+}
+
+.login
+
+{
+	width:800px;
+	height:1400px;
+	position:absolute;
+	top:200px;
+	left:240px;
+	background-color:#0033FF;
+	border-radius:7px;
+    padding:30px;	
+}
+
+div.contas
+
+{
+	width:auto;
+	height:auto;
+	margin-left:200px;	
+    margin-top:50px;		
+}
+
+#contas
+
+{
+	width:auto;
+	height:auto;
+	margin-left:200px;	
+    margin-top:30px;
+    
+}
+
+.botao2
+
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:700;
+	padding:5px;
+	cursor:pointer;
+	display:inline-block;
+	margin-top:20px;
+	margin-left:80px;
+	width:200px;
+	height:40px;
+	border:0px;
+	border-radius:5px;
+	
+}
+
+.botao2-blue
+
+{
+	background:#CCFFFF;
+	color:#000000;	
+}
+
+.botao2-blue:hover
+
+{
+	background:#66FFFF;
+	color:#000000;
+}
+
+/*BOTAO DO LOGIN*/
+
+.botao3
+
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:700;
+	padding:5px;
+	cursor:pointer;
+	display:inline-block;
+	margin-top:80px;
+	margin-left:280px;
+	width:200px;
+	height:40px;
+	border:0px;
+	border-radius:5px;
+	
+}
+
+.botao3-blue
+
+{
+	background:#CCFFFF;
+	color:#000000;	
+}
+
+.botao3-blue:hover
+
+{
+	background:#66FFFF;
+	color:#000000;
+}
+	
+.pesquisa2
+
+{
+	width:380px;
+	height:40px;
+	background-color:#ffffff;
+	margin-left:0px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	padding-left:30;
+    border:0px;	
+	border-radius:5px;
+	margin-top:30px;
+	
+}
+
+h1.cadast
+
+{
+	margin-top:20px;	
+	margin-left:250px;	
+	color:black;
+	font-family:verdana;
+}
+
+.cadast2
+
+{
+	margin-top:50px;
+	margin-left:205px;	
+	color:black;
+	font-family: verdana;
+}
+
+.cadast3
+
+{
+	margin-top:20px;
+	margin-left:240px;		
+}
+	
+.pesquisa3
+
+{
+	width:380px;
+	height:40px;
+	background-color:#CCFF66;
+	margin-left:0px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	padding-left:30;
+    border:0px;	
+	border-radius:5px;
+	margin-left:200px;
+	margin-top:30px;	
+}	
