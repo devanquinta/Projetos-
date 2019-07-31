@@ -1,0 +1,651 @@
+*{
+margin:0;
+padding:0;
+}
+
+.cabeçalho
+{
+    background-color:#F5F5F5;
+    width:1800px;
+    height:200px;
+    margin:0px;
+    position:absolute;
+}
+/* div do formulario */
+
+div.formulario
+{
+	width:auto;
+	height:auto;
+	margin-left: 630px;	
+	margin-bottom: 100px;	
+}
+
+.botao
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:700;
+	padding:5px;
+	cursor:pointer;
+	display:inline-block;
+	top:0px;
+	
+	
+	
+}
+.botao-white
+{
+	background:#ffffff;
+	color:#000000;	
+}
+
+.botao-white:hover
+
+{
+	background:#edecf2;
+	color:#000000;
+}
+.botao-white:active
+
+{
+	position:relative;
+	top:5px;
+}
+		
+
+.pesquisa
+{
+	width:250px;
+	height:30px;
+	background-color:#ffffff;
+	margin-left:0px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	padding-left:20;
+	
+	
+	
+	
+	
+}
+
+/*menu horizontal*/
+.menu1
+{
+    background-color:#C30;
+    width:1800px;
+    height:40px;
+    margin-left:auto;
+    margin-top:200px;
+    position:absolute;	
+	
+}
+.menu1 ul
+
+{   
+    width:100%;
+	margin:auto;
+	padding:auto;
+	list-style:none;
+	padding-left:380px;
+}
+.menu1 ul li
+{
+	float:left;
+	font-size:18px;
+	font-family: Verdana, Geneva, sans-serif;
+	color:#FFF;	
+	font-weight:bold;
+	font-style:oblique;
+	
+}
+
+.menu1 ul li a
+
+{
+	color:#FFF;
+	text-decoration:none;
+	padding:8px;
+	padding-left:20px;
+	padding-right:20px;
+	display:block;		
+}
+.menu1 ul li:hover
+{
+	background-color:#ff4500;
+	width:auto;
+}
+
+/*div entral*/
+
+.corpo
+{
+  
+  width:1150px;
+  height:2100;
+  position:absolute;
+  background-color:#ffffff;
+  left:100px;
+  top:400px;
+}
+
+/*menu vertical*/
+
+
+
+
+
+.menu ul
+{
+	width: 270px;
+	height: 504px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color:#1d2cfb;
+	float: left;
+	position: absolute;
+	text-align: left;
+	display: block;
+	left: 4px;
+	top: 297px;
+	padding-left: 10px;
+	text-decoration:none;
+	
+	
+}
+.menu li
+{
+list-style:none;
+display:block;
+width:80%;
+height:auto;
+border-bottom:2px solid #009;
+color:#FFF;
+font-family:"Segoe script", verdana,"Trebuchet MS", Arial, Helvetica, sans-serif, "Segoe Print" ;
+font-size:19px;
+padding:15px;
+font-style:oblique;
+font-weight:bold;
+-webkit-transition:all .9s ease;
+-moz-transition:all .9s ease;
+transition:all.9s ease;
+text-decoration:none;
+
+}
+.menu li:hover
+{
+	background:#ff4500;
+	width:215px;
+	text-decoration:none;
+
+}
+
+.menu ul li a
+{
+	text-decoration:none;
+		
+}
+
+
+
+
+/*rodape*/
+.rodape
+{
+background-color:#C30;
+width:1800px;
+height:52px;
+margin-top:2400px;
+margin-left:0px;
+float:bottom;
+position:absolute;
+}
+#pesquisa
+{
+	width:700px;
+	height:30px;
+	background-color:#ffffff;
+	margin-left:350px;
+	border-radius:20px;
+	margin-top:10px;
+	padding-left:30px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	border:opx;
+}
+.search
+{
+  width:30px;
+  height:30px;
+  background-color:#FFFFFF;
+  background-image:url("img/search.png");
+  border-radius:10px;
+  
+}
+.rodape_inf
+{
+	background-color:#CCC;
+    width:1800px;
+    height:80px;
+    margin-top:2452px;
+    margin-left:0px;
+    float:bottom;
+    position:absolute;
+	padding-left:300px;
+	padding-top:20px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	
+}
+.span
+{
+	margin-left:190px;
+}
+.span2
+{
+	margin-left:80px;
+}
+
+
+/*llog no cabeçalho*/
+.logo
+{
+background-image:url("img/logo1.png");
+width:362px;
+height:60px;
+margin-top:80;
+margin-left:200;
+}
+/*banner  no cabeçalho*/
+.banner
+
+{
+	background-image:url("log/20off.png");
+	width:1800;
+	height:440px;
+	position:absolute;
+	top:240px;
+	left:0px;
+	
+}
+
+
+
+
+/* paginas de todos produtos*/
+.prod1
+
+{
+	width: 290px;
+	height: 330;
+	position: absolute;
+	background-color: #ffffff;
+	margin-top: 830px;
+	margin-left: 225px;
+	left: 0px;
+	top: -19px;
+}
+.prod2
+
+{
+	width:290;
+	height:330;
+	position:absolute;
+	background-color:#ffffff;
+	margin-top:830px;
+	margin-left:540px;
+}
+.prod3
+
+{
+	width:290;
+	height:330;
+	position:absolute;
+	background-color:#fff;
+	margin-top:830px;
+	margin-left:850px;
+}
+
+.prod4
+
+{
+	width:290;
+	height:330;
+	position:absolute;
+	background-color:#fff;
+	margin-top:1170px;
+	margin-left:225px;
+}
+.prod5
+
+{
+	width:290;
+	height:330;
+	position:absolute;
+	background-color:#fff;
+	margin-top:1170px;
+	margin-left:540px;
+}
+.prod6
+
+{
+	width:290;
+	height:330;
+	position:absolute;
+	background-color:#fff;
+	margin-top:1170px;
+	margin-left:850px;
+}
+
+.prod7
+
+{
+	width: 290px;
+	height: 330;
+	position: absolute;
+	background-color: #fff;
+	margin-top: 1510px;
+	margin-left: 225px;
+	left: -1px;
+	top: 1px;
+}
+.prod8
+
+{
+	width:290;
+	height:330;
+	position:absolute;
+	background-color:#fff;
+	margin-top:1510px;
+	margin-left:540px;
+}
+.prod9
+
+{
+	width:290;
+	height:330;
+	position:absolute;
+	margin-top:1510px;
+	margin-left:850px;
+	background-color:#FFF;
+}
+
+p.produtos
+{
+	font-size:13px;
+	font-weight:bold;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#020414;
+}    
+	
+p.desconto
+
+{
+	color:#465cfc;
+	margin-top:10px;
+	font-size:12px;
+	font-weight:bold;
+	font-family:"Arial Black", Gadget, sans-serif;	
+}
+p.preço
+{
+	
+	font-size:16px;
+	color:#fc4646;
+	margin-top:10px;
+	font-weight:bold;
+}
+p.de_para
+{
+	font-size:13px;
+	color:gray;
+	margin-top:10px;
+	font-weight:bold;
+	text-decoration:line-through;
+		
+}
+
+
+/*destaques de produtos*/
+.destaque1
+{
+	width: 270px;
+	height: 230px;
+	position: absolute;
+	background-color:#FFF;
+	margin-top: 2100px;
+	margin-left: 560px;
+	left: -326px;
+	top: 9px;
+}	
+.destaque2
+{
+	width: 270;
+	height: 230;
+	position: absolute;
+	background-color: #300;
+	margin-top: 2100px;
+	margin-left: 877px;
+	left: -329px;
+	top: 7px;
+}	
+.destaque3
+{
+	width: 270;
+	height: 230;
+	position: absolute;
+	background-color: #900;
+	margin-top: 2100px;
+	margin-left: 1095px;
+	left: -237px;
+	top: 6px;
+}	
+
+/*  paginas contas html*/
+
+.login
+{
+	width:800px;
+	height:1200px;
+	position:absolute;
+	top:850px;
+	left:240px;
+	background-color:#a4a3a6;
+	border-radius:7px;
+    padding:30px;	
+}
+
+div.contas
+{
+	width:auto;
+	height:auto;
+	margin-left:200px;	
+    margin-top:50px;		
+}
+
+#contas
+{
+	width:auto;
+	height:auto;
+	margin-left:200px;	
+    margin-top:30px;
+    
+}
+
+
+.botao2
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:700;
+	padding:5px;
+	cursor:pointer;
+	display:inline-block;
+	margin-top:20px;
+	margin-left:80px;
+	width:200px;
+	height:40px;
+	border:0px;
+	border-radius:5px;
+	
+}
+.botao2-blue
+{
+	background:#CCFFFF;
+	color:#000000;	
+}
+
+.botao2-blue:hover
+
+{
+	background:#66FFFF;
+	color:#000000;
+}
+
+
+/*BOTAO DO LOGIN*/
+
+
+.botao3
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:700;
+	padding:5px;
+	cursor:pointer;
+	display:inline-block;
+	margin-top:80px;
+	margin-left:280px;
+	width:200px;
+	height:40px;
+	border:0px;
+	border-radius:5px;
+	
+}
+.botao3-blue
+{
+	background:#CCFFFF;
+	color:#000000;	
+}
+
+.botao3-blue:hover
+
+{
+	background:#66FFFF;
+	color:#000000;
+}
+	
+	
+
+.pesquisa2
+{
+	width:380px;
+	height:40px;
+	background-color:#ffffff;
+	margin-left:0px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	padding-left:30;
+    border:0px;	
+	border-radius:5px;
+	margin-top:30px;
+	
+}
+
+h1.cadast
+{
+	margin-top:20px;	
+	margin-left:270px;	
+}
+.cadast2
+{
+	margin-top:50px;
+	margin-left:280px;	
+}
+.cadast3
+{
+	margin-top:20px;
+	margin-left:240px;		
+}
+	
+.pesquisa3
+{
+	width:380px;
+	height:40px;
+	background-color:#FFFF99;
+	margin-left:0px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	padding-left:30;
+    border:0px;	
+	border-radius:5px;
+	margin-left:200px;
+	margin-top:30px;	
+}	
+
+
+
+/*pagina empresa*/
+.empresas
+{
+	width:100%px;
+	height:1350px;
+	background-color:#DCDCDC;
+	position:absolute;
+	margin-left:50px;
+	margin-top:800px;
+	border-radius:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bolde;
+	padding:30px;
+	padding-top:70px;
+	
+	
+}
+    
+/* pular paginas*/	
+h3.next
+{
+	
+ width:400px;
+ height:20px;
+ font-family:verdana; 
+ position:absolute; 
+ margin-top:2000px; 
+ margin-left:650px;
+ color:blue;
+ text-decoration:none;
+
+}	
+
+
+/*titulos*/
+
+
+
+h2.titulos
+
+{
+margin-top:720px; 
+margin-left:590px; 
+position: absolute;
+color:blue;
+text-shadow:2px, gray;
+font-family:"Segoe script", verdana,"Trebuchet MS", Arial, Helvetica, sans-serif, "Segoe Print" ;
+
+		
+	
+}
+
+	
+	
+	
+	
+
+	
+

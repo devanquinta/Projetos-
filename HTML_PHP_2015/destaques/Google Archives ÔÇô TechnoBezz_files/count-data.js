@@ -1,0 +1,5 @@
+var DISQUSWIDGETS;
+
+if (typeof DISQUSWIDGETS != 'undefined') {
+    DISQUSWIDGETS.displayCount({"text":{"and":"and","comments":{"zero":"0 Comments","multiple":"{num} Comments","one":"1 Comment"}},"counts":[{"id":"98491 http:\/\/www.technobezz.com\/?p=98491","comments":0},{"id":"96480 http:\/\/www.technobezz.com\/?p=96480","comments":0},{"id":"97449 http:\/\/www.technobezz.com\/?p=97449","comments":0},{"id":"97956 http:\/\/www.technobezz.com\/?p=97956","comments":0},{"id":"98289 http:\/\/www.technobezz.com\/?p=98289","comments":0},{"id":"98262 http:\/\/www.technobezz.com\/?p=98262","comments":0},{"id":"96844 http:\/\/www.technobezz.com\/?p=96844","comments":0},{"id":"96876 http:\/\/www.technobezz.com\/?p=96876","comments":0},{"id":"98299 http:\/\/www.technobezz.com\/?p=98299","comments":0},{"id":"98446 http:\/\/www.technobezz.com\/?p=98446","comments":0}]});
+}
